@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="MachChemie, Info, Projekt, info-projekt">
+    <meta name="author" content="MachChemie">
+    <meta name="description" content="This is a test, for my Info Projekt.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Forest</title>
+    <link rel="stylesheet" type="text/css"  href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+    <script src="visualizer.js"></script>
+
+<!--- Header ------------------------------------------------------------------>
+
+    <header>
+      <div class="logo">
+        <a href="#about">
+          <img src="logo/logo.png" alt="Logo">
+        </a>
+      </div>
+      <nav class="mainnav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#video">Video</a></li>
+          <li><a href="#bilder">Bilder</a></li>
+          <li><a href="#song">Song</a></li>
+  <!--        <li><a href="#makingof">Making Of</a></li> --->
+          <li><a href="#about">About</a></li>
+        </ul
+      </nav>
+    </header>
+
+  <!--- Home ------------------------------------------------------------------>
+
+    <section class="home" id="home">
+      <hr>
+      <h1>The Forest</h1>
+      <hr id="hrhome">
+      <h2>Alwin Schmidt &amp; Valentin Reifke</h2>
+      <a href="#video">
+        <img id="pfeil" src="home/pfeil.png" alt="Pfeil">
+      </a>
+    </section>
+
+<!--- Video ------------------------------------------------------------------->
+
+    <section class="video" id="video">
+
+      <h3 class="hvideo">The Forest</h3>
+      <hr>
+      <video id="videomp" src="video/video.mp4" type="mp4/video" controls poster="video/bild.png" >
+      </video>
+
+    </section>
+
+<!--- Bilder ------------------------------------------------------------------>
+
+    <section class="bilder" id="bilder">
+      <h3>Bilder</h3>
+      <hr>
+      <br>
+      <div class="bilderf">
+        <figure id="bild1" class="details">
+           <img class="figureimg" src="bilder/bilder1.jpg" alt="Bild1">
+            <a class="close" id="c1" href="#c1" title="schließen">schließen</a>
+        </figure>
+        <figure id="bild2" class="details">
+           <img class="figureimg" src="bilder/bilder2.jpg" alt="Bild2">
+            <a class="close" id="c2" href="#c2" title="schließen">schließen</a>
+        </figure>
+        <figure id="bild3" class="details">
+           <img class="figureimg" src="bilder/bilder3.jpg" alt="Bild3">
+            <a class="close" id="c3" href="#c3" title="schließen">schließen</a>
+        </figure>
+        <figure id="bild4" class="details">
+           <img class="figureimg" src="bilder/bilder4.jpg" alt="Bild4">
+            <a class="close" id="c4" href="#c4" title="schließen">schließen</a>
+        </figure>
+        <figure id="bild5" class="details">
+           <img class="figureimg" src="bilder/bilder5.jpg" alt="Bild5">
+            <a class="close" id="c5" href="#c5" title="schließen">schließen</a>
+        </figure>
+        <figure id="bild6" class="details">
+           <img class="figureimg" src="bilder/bilder6.jpg" alt="Bild6">
+            <a class="close" id="c6" href="#c6" title="schließen">schließen</a>
+        </figure>
+      </div>
+      <div class="bilderd">
+        <a href="#bild1"><img class="img" src="bilder/bilder1.jpg" alt="Bild1"></a>
+        <a href="#bild2"><img class="img" src="bilder/bilder2.jpg" alt="Bild2"></a>
+        <a href="#bild3"><img class="img" src="bilder/bilder3.jpg" alt="Bild3"></a>
+        <a href="#bild4"><img class="img" src="bilder/bilder4.jpg" alt="Bild4"></a>
+        <a href="#bild5"><img class="img" src="bilder/bilder5.jpg" alt="Bild5"></a>
+        <a href="#bild6"><img class="img" src="bilder/bilder6.jpg" alt="Bild6"></a>
+      </div>
+
+    </section>
+<!--- Song -------------------------------------------------------------------->
+
+    <section class="song" id="song">
+      <h3 class="hsong">Song</h3>
+      <hr>
+<!--- Cors läuft noch ne
+      <audio src="song/song.mp3" controls data-title="The Forest" data-author="M8em8iker & MachChemie">
+
+      </audio>
+--->
+      <audio src="song/song.mp3" id="myAudio" data-author="M8em8iker&MachChemie" data-title="The Forest"></audio>
+      <div class="vz-wrapper -canvas">
+          <canvas id="myCanvas" width="800" height="600"></canvas>
+      </div>
+
+
+    </section>
+
+<!--- MakingOf
+
+    <section class="makingof" id="makingof">
+      <h3>Making Of</h3>
+      <hr>
+      <video id="makingofmp" src="makingof/makingof.mp4" type="mp4/video" controls poster="makingof/bild.png" >
+      </video>
+      <p>Der Text dazu!</p>
+    </section>
+---------------------------->
+<!--- About -------------------------------------------------------------------->
+
+    <section class="about" id="about">
+      <h3>About</h3>
+      <hr>
+      <ul>
+        <li>
+          <div class="alwin">
+            <h5>Alwin</h5>
+            <h5>Schmidt</h5>
+              <ul>
+                  <li>
+                      <a href="https://www.instagram.com/m8em8iker" id="Aabout2"><img src="about/insta.png" alt="insta"></a>
+                      <a href="https://www.youtube.com/channel/UCnU4Sd3zWfwOrUbj-JxCeog" id="Aabout3"><img src="about/yt.png" alt="yt"></a>
+                      <a href="https://www.twitch.tv/m8em8iker" id="Aabout4"><img src="about/twitch.png" alt="twitch"></a>
+                      <a href="https://discord.gg/AQxqGDn" id="Aabout5"><img src="about/discord.png" alt="discord"></a>
+                  </li>
+              </ul>
+          </div>
+        </li>
+        <li>
+          <div class="vali">
+            <h5>Valentin</h5>
+            <h5>Reifke</h5>
+            <ul>
+                <li>
+                  <a href="https://www.instagram.com/xx_pxx3.0/" id="Aabout2"><img src="about/insta.png" alt="insta"></a>
+                  <a href="https://www.twitch.tv/m8em8iker" id="Aabout4"><img src="about/twitch.png" alt="twitch"></a>
+                  <a href="https://discord.gg/AQxqGDn" id="Aabout5"><img src="about/discord.png" alt="discord"></a>
+                </li>
+              </ul>
+          </div>
+        </li>
+      </ul>
+  </section>
+
+<!--- Footer -------------------------------------------------------------------->
+
+  <footer>
+    <p id="footer">©2021 Alwin Schmidt, Valentin Reifke </p>
+  </footer>
+  </body>
+</html>
