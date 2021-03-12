@@ -86,7 +86,7 @@ header nav ul li:hover{
 /*-------------------Home--------------------- */
 
 #home{
-  background: url(home/home.png);
+  background: url(home/home.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
